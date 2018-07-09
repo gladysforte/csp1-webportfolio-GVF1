@@ -1,0 +1,107 @@
+/*
+*
+* CSS Reset
+*
+*/
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+/*
+*
+* General Rules
+*
+*/
+
+body {
+	font-family: 'Bree Serif', sans-serif;
+	background-color: white;
+}
+
+body, html {
+	height: 100%;
+}
+
+.bg-1, .bg-2 {
+	position: relative;
+	opacity: 0.70;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
+.bg-1 {
+	background-image: url('./../img/bg-1.jpg');
+	min-height: 100%;
+	width: 100%;
+
+}
+
+.bg-2 {
+	background-image: url('./../img/bg-2.jpg');
+	min-height: 500px;
+/*	min-height: 100%;
+	width: 100%;*/
+	
+}
+
+.ptext {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+.section{
+	text-align:center;
+	/*padding: 5rem 7rem 5rem;*/
+	color: black;
+	/*background-color: rgba(0, 0, 0, 0.5);*/
+
+}
+
+.section-white{
+	background-color: white;
+	color: black;
+}
+
+
+.section-light{
+	background-color: rgba(255, 255, 255, 0.77);
+	color: black;
+}
+
+.section-dark{
+	background-color:#282e34;
+	color:#ddd;
+
+}
+
+main#wrapper > section > div > ul {
+	list-style-type: none;
+}
+
+
+
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+p {
+    margin-top: 0;
+     margin-bottom: 0rem; 
+
+}
+
+

@@ -1,0 +1,184 @@
+/*
+*
+* Desktop Devices
+*
+*/
+
+@media only screen and (min-width: 961px) {
+
+header#mainHeader {
+	background-color: #52525a;
+	width: 15vw;
+	height: 100vh;
+	position: fixed;
+	padding: 25px;
+}
+
+header#mainHeader > img {
+	width: 100%;
+	margin-bottom: 25px;
+	border: 2px solid black;
+}
+
+header#mainHeader > nav > ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+header#mainHeader > nav > ul > li {
+	height: 50px;
+	margin-bottom: 5px;
+}
+
+header#mainHeader > nav > ul > li > a {   
+	text-decoration: none;
+	background-color: white;
+	color: black;
+	line-height: 50px; 
+	display: block;
+}
+
+header#mainHeader > nav > ul > li > a:hover {
+	background-color: gray;
+	color: white;
+}
+
+
+main#wrapper {
+	background-color: lightgray;
+	margin-left: 15vw;
+}
+
+main#wrapper > section > h2 {
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+section#bio {
+	background-color: #a8e6cf;
+	height: 100vh;
+	position: relative;
+}
+
+section#bio h3 {
+	font-size: 53px;
+	letter-spacing: 7px;
+}
+
+
+section#bio > div {
+	border: 3px solid white;
+	width: 100%;
+	padding: 25px;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+section#projects {
+	
+	/*min-height: 50vh;*/
+}
+
+
+section#projects > h2 {
+	padding-top: 15px;
+	/*padding-bottom: 15px;*/
+
+}
+section#projects > p {
+	/*padding: 0 25px 25px;*/
+	text-align: justify;
+}
+
+
+section#skillset {
+	min-height: 75vh;
+	padding: 0 15px 15px 15px;
+}
+
+section#skillset > h2 {
+	/*padding-top: 15px;*/
+	padding-bottom: 15px;
+}
+
+section#skillset > div {
+	border: 2px solid black;
+	padding: 15px;
+	width: 33.33%;
+	float: left;
+	/*width: 100%;*/
+	/*margin-bottom: 15px;*/
+}
+
+
+section#skillset > div > img {
+	width: 100%;
+	/*float: left;*/
+	/*margin-right: 15px;*/
+
+}
+
+section#skillset > div > h3 {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+
+section#skillset > div > p {
+	text-align: justify;
+}
+
+
+section#contact {
+	/*background-color: #ff8b94;*/
+	/*min-height: 10%;*/
+}
+
+section#contact > h2 {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+section#contact > p {
+	/*margin: 0 25px;*/
+	padding: 0 25px 25px;
+	text-align: justify;
+}
+
+footer#mainFooter {
+	background-color: lightgray;
+}
+
+footer#mainFooter > div#left {
+	width: 50%;
+	float: left;
+	font-size: 12px;
+	padding: 30px;
+}
+
+footer#mainFooter > div#right {
+	width: 50%;
+	float: left;
+	padding: 22px;
+}
+
+footer#mainFooter > div#right > ul {
+	list-style-type: none;
+	text-align: right;
+	
+}
+
+footer#mainFooter > div#right > ul > li {
+	display: inline-block;
+	padding-left: 5px;
+}
+
+}
+
+
+
+
